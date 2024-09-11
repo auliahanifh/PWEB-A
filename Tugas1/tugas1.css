@@ -1,7 +1,12 @@
 body {
     background-color: white;
 }
-
+h1{
+    color: black;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 20px;
+}
 .link-tab {
     margin-bottom: 16px;
     background-color: rgb(67, 230, 96);
