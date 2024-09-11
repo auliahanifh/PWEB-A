@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+}
+
+.link-tab {
+    margin-bottom: 16px;
+    background-color: rgb(67, 230, 96);
+    transition: transform 0.3s cubic-bezier(0, 0.2, 0.5, 1);
+    border-radius: 14px;
+}
+
+.link-tab:hover {
+    transform: scale(1.05);
+    background-color: rgb(57, 200, 80);
+}
