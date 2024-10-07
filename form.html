@@ -9,7 +9,7 @@
 <script>
     function showalert()
     {
-        alert("Selamat Anda dapat undian sebanyak 1 Milyar!");
+        alert("Selamat anda mendapatkan undian sebanyak 1 Milyar!");
     }
     function validateform()
     {
@@ -17,6 +17,11 @@
         
         if(nrp.value.length != 10){
             alert("NRP harus 10 digit!");
+            nrp.focus();
+            return false;
+        }
+        if(isNaN(nrp.value) == true){
+            alert("NRP harus angka!");
             nrp.focus();
             return false;
         }
@@ -34,7 +39,7 @@
             </div>
           
             <div class="input-group">
-              <span class="input-group-text">Nama</span>
+              <span class="input-group-text">Nama</span> 
               <input type="text" class="form-control" placeholder="Isikan Nama Lengkap" name="nama" id="nama">
             </div>
 
